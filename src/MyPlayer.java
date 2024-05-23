@@ -13,6 +13,32 @@ public class MyPlayer {
          * This code will run just once, when the game opens.
          * Add your code here.
          */
+
+for (int a=1;a<=3;a++){
+            for (int b=0;b<=3;b++){
+                for (int c=0;c<=3;c++){
+                    if (c<=b && b <= a){
+                        System.out.println(a+","+b+","+c);
+                        System.out.println("resulting boards: ");
+                        for (int z=c-1;z>=0;z--){
+                            System.out.println("("+a+", "+b+", "+z+")");
+                        }
+                        for (int y=b-1;y>=b;y--){
+
+                            System.out.println(+a+", "+y+", "+c +")");
+
+                        }
+                        for (int q=1;q<a;q++){
+
+                            System.out.println("("+q+", "+b+", "+c+")");
+
+                        }
+
+
+                    }
+                }
+            }
+        }
     }
 
     public Point move(Chip[][] pBoard) {
