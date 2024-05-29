@@ -25,7 +25,7 @@ for (int a=1;a<=3;a++){
                         }
                         for (int y=b-1;y>=b;y--){
 
-                            System.out.println(+a+", "+y+", "+c +")");
+                            //System.out.println(+a+", "+y+", "+c +")");
 
                         }
                         for (int q=1;q<a;q++){
